@@ -1,0 +1,6 @@
+python main.py --dataset mnist --model cnn --dp_mechanism Gaussian --dp_epsilon 1 --dp_delta 1e-5 --dp_clip 0.1 --lr 0.1 --epochs 150 --iid --frac 0.25 --attack flip --robust mine --threshold_factor 0.005
+python main.py --dataset mnist --model cnn --dp_mechanism Gaussian --dp_epsilon 2 --dp_delta 1e-5 --dp_clip 0.1 --lr 0.1 --epochs 150 --iid --frac 0.25 --attack flip --robust mine --threshold_factor 0.001
+python main.py --dataset mnist --model cnn --dp_mechanism Gaussian --dp_epsilon 3 --dp_delta 1e-5 --dp_clip 0.1 --lr 0.1 --epochs 150 --iid --frac 0.25 --attack flip --robust mine --threshold_factor 0.001
+python main.py --dataset mnist --model cnn --dp_mechanism Gaussian --dp_epsilon 4 --dp_delta 1e-5 --dp_clip 0.1 --lr 0.1 --epochs 150 --iid --frac 0.25 --attack flip --robust mine --threshold_factor 0.001
+python main.py --dataset mnist --model cnn --dp_mechanism Gaussian --dp_epsilon 5 --dp_delta 1e-5 --dp_clip 0.1 --lr 0.1 --epochs 150 --iid --frac 0.25 --attack flip --robust mine --threshold_factor 0.001
+#python draw_ablation.py
